@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../../../../Windows/System32/hello/public"
+		},
+		{
+			"path": "../../../../../../../../../Windows/System32/hello/src"
+		},
+		{
+			"path": "../../../../../../../../../Windows/System32/hello/.git"
+		},
+		{
+			"path": "../../../../../../../../../Windows/System32/hello/node_modules"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,21 @@
+#all-articles {
+    font-size: 15PX;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.All-CLASS-ARTİCLE {
+    font-size: 35PX;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+footer {
+    font-size: 150px;
+    background-color: red;
+    color: white;
+
+}

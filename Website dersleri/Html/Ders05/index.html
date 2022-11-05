@@ -1,0 +1,111 @@
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Programa özel kod-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Responisve tasarım için gerekli olan kısım-->
+    <meta name="Description" content="Açıklama alanı">
+    <meta name="Keywords" content="Anahtar kelimeler">
+    <title>Sayfa</title>
+</head>
+
+<body>
+    <!----Tablo oluşturma-->
+    <table>
+        <thead>
+            <th>Samsung</th>
+            <th>Nokia</th>
+            <th>İphone</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Samsung A10 <br>Samsung A20 <br>Samsung A73</td>
+                <td rowspan="2">Nokia m73 <br>Nokia 6550 <br>Nokia s82</td>
+                <td>İphone6 <br> İphone 7 <br> İphone 9 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Samsung dünya geneli<br> giden bir markadır</td>
+                <td>Nokia ilk çıkan ürünleri <br> ile meşhurdur</td>
+                <td colspan="2">İphone sürekli kendini <br>geliştiren bir markadır</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <form accept="index.php">
+        <label for="isim">İsminiz:</label>
+        <input type="text" id="isim"> <br>
+        <label for="Soyisim">Soyisminiz</label>
+        <input type="text" id="Soyisim"> <br>
+        <label for="Şifre">Parola Giriniz:</label>
+        <input type="password" id="Sifre"> <br>
+        <label for="Yorum">Yorum : </label>
+        <textarea id="Yorum">
+
+        </textarea>
+    </form>
+
+
+    <br>
+    <form accept="liste.php">
+
+        <input type="radio" id="html" name="html" value="html">
+        <label for="html">Html</label>
+
+        <input type="radio" id="html" name="html" value="css">
+        <label for="html">Css</label>
+
+        <input type="radio" id="html" value="c#" name="html" value="c#">
+        <label for="html">C#</label>
+
+    </form>
+
+    <form accept="Chechbox.php">
+        <label for="html">Html</label>
+        <input type="checkbox" id="html" value="html">
+        <label for="html">Css</label>
+        <input type="checkbox" id="Html" value="css">
+        <label for="html">Kotlin</label>
+        <input type="checkbox" id="html">
+    </form>
+
+    <form action="option.php">
+        <label for="cities">sehirler</label>
+        <select id="cities">
+            <option value="46" id="cities">Kahramanmaraş</option>
+            <option value="40" id="cities" selected>Şehir</option>
+            <option value="46" id="cities">Kahramanmaraş</option>
+            <option value="40" id="cities">Şehir</option>
+            <option value="46" id="cities">Kahramanmaraş</option>
+            <option value="40" id="cities">Şehir</option>
+            <option value="46" id="cities">Kahramanmaraş</option>
+            <option value="40" id="cities">Şehir</option>
+            <option value="46" id="cities">Kahramanmaraş</option>
+            <option value="40" id="cities">Şehir</option>
+        </select>
+    </form>
+    <form action="email.php">
+        <label for="email">Email adresini giriniz:</label>
+        <input type="email" name="email" id="email">
+        <input type="button" name="button" value="gonder" id="button">
+        <input type="reset" name="sil" value="sil">
+    </form>
+
+    <label for="birthday">Birthday: </label>
+    <input type="date" id="birthday" name="birthday" /> <br>
+
+    <label for="search">Arama butonu: </label>
+    <input type="search" id="search"> <br>
+    <label for="tel">Telefon numarası gir: </label>
+    <input type="tel"> <br>
+    <label for="url">Web adresi gir: </label>
+    <input type="url"><br>
+    <label for="file">Gönderilecek dosyayı gir</label>
+    <input type="file"> <br>
+    <label for="image">Resimi gönder </label>
+    <input type="image" src="images.jpg">
+
+</html>
